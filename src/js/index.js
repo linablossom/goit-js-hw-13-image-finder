@@ -12,12 +12,10 @@ const inputEl = formEl.querySelector("input");
 const galleryEl = document.querySelector(".gallery");
 const loadBtnEl = document.querySelector("#load-btn");
 const INPUT_DELAY = 2000;
-const onInputChange = debounce(onSearch, INPUT_DELAY);
 let currentPage = START_PAGE;
 let maxPage = null;
 
 formEl.addEventListener("submit", onSubmit);
-inputEl.addEventListener("input", onInputChange);
 loadBtnEl.addEventListener("click", loadMore);
 
 function onSearch() {

@@ -11,10 +11,24 @@ img {
   justify-content: center;
 }
 
+input,
+.search-btn,
+#load-btn {
+  margin-top: 30px;
+  padding: 4px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
 input {
-  width: 200px;
-  height: 30px;
-  border-radius: 8px;
+  margin-right: 30px;
+  width: 300px;
+  height: 48px;
+  text-align: left;
+  border-radius: 15px;
 }
 
 .gallery {
@@ -43,11 +57,7 @@ input {
 }
 
 #load-btn {
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
-  text-align: center;
-  border-radius: 10px;
+  height: 48px;
 }
 
 .hidden {
